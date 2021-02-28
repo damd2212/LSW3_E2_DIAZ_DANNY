@@ -1,0 +1,207 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #D3FFE9;
+}
+
+.container{
+	margin: auto;
+}
+
+header{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #8DDBE0;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #9BC4BC;
+	max-width: 100%;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #090909;
+	color: white;
+}
+
+.divider{
+	clear: both;
+}
+
+#autobiografia{
+	text-align: center;
+}
+
+#pauto{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer{
+	
+	background: grey;
+	text-align: center;
+	color: white;
+ 
+}
+
+#tablaEstudios{
+	text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+}
+
+.lista{
+	padding-left: 25px;
+}
+
+.titulopro{
+	padding-left: 10px;
+}
+
+.testudios{
+	background: #f2f2f2;
+	margin: auto;
+	text-align: center;
+	border: 1px solid black;
+	padding: 8px;
+}
+
+#contactar{
+	margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 350px;
+    width: 600px;
+    background: #f0f0f0;
+}
+
+#Danny{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 390px;
+	width: 400px;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 380px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  text-align: center;
+}
+
+aside{
+	background: #f2f2f2; 
+	border-radius: 10px;
+	margin: auto;
+	margin-left: 15px;
+	margin-top: 5px;
+	border: 1px solid black;
+	float: left;
+	height: 150px;
+	width: 10%;
+}
+
+.secsion{
+	min-height: 770px;
+	margin: auto;
+	margin-top: 5px;
+	float: right;
+	width: 85%;
+}
+
+.subindice{
+	margin-top: 3px;
+	text-align: center;
+}
+
+.valor{
+	padding-left: 20px;
+}
+
+#audio{
+	text-align: center;
+	margin: auto;
+	width: 25%;
+}
+
+.etiqueta{
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+}
+
+.texto{
+	float: left;
+	width: 75%;
+	margin-top: 5px;
+}
+
+input[type=text],input[type=email], select, textarea {
+  	margin-top: 5px;
+  	width: 90%;
+  	padding: 9px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	resize: none;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+  	color: white;
+  	padding: 9px 17px;
+  	border: none;
+  	border-radius: 10px;
+  	cursor: pointer;
+  	float: right;
+}
+
+.res:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+label {
+	margin-top: 7px;
+	padding: 5px 5px 5px 0;
+  	display: inline-block;
+}
+.contenido{
+	border: 1px solid black;
+  	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	width: 700px;
+}
